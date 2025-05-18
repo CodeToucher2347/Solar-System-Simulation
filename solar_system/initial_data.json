@@ -1,0 +1,27 @@
+[
+    {
+      "model": "planets.planet",
+      "pk": 1,
+      "fields": {
+        "name": "Earth",
+        "description": "Our home planet, third from the Sun.",
+        "distance_from_sun_km": 149600000,
+        "orbital_period_days": 365.25,
+        "number_of_moons": 1,
+        "image": "planets/earth.jpeg"
+      }
+    },
+    {
+      "model": "planets.planet",
+      "pk": 2,
+      "fields": {
+        "name": "Mars",
+        "description": "Known as the Red Planet.",
+        "distance_from_sun_km": 227900000,
+        "orbital_period_days": 687,
+        "number_of_moons": 2,
+        "image": "planets/mars.jpeg"
+      }
+    }
+  ]
+  
